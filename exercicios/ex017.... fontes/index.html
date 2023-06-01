@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title> <!--voçê pode usar h1, h2 para mudar as letras dos dois de uma vez-->
+
+    <style>
+        body{
+            font-family: 'work sans' Arial, Helvetica, sans-serif;
+            font-size: 1em} 
+        /*Medidas Absolutas 
+         cm, mm, in, px, pt, pc
+
+        Medidas Relativas%
+        em, ex, rem, vw, vh,% 
+        16 px geralmete = 1 em, 2 em sao o dobro de 16px */
+        
+        /* lighter normal bold bolder (grossura da fontes ou peso das fonte) 
+
+        
+
+        /*shorthand font
+        - font-style -> font-weight -> font-size -> font-family <- (ordem correta, tem q ser obedeçida)
+
+        em vez de fazer o exemplo de baixo... faça o de cima dependo da situação
+        
+        font-family: 'work sans , sans serif'; (familia da letra, tipografia)
+        font-weight: bolder; (para o peso da letra)
+        font-size: 3em; (tamanho da letra)
+        font-style: italic; (stilo da letra)*/
+
+        h1 {
+            font: italic bolder 3em 'work sans' , sans-serif
+        }
+        h2 {font: bold 2em 'work sans';
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti alias ipsam veniam dolorum incidunt culpa harum eum, obcaecati facere ipsa voluptates. Harum quasi, illum ratione aliquam vitae suscipit voluptates debitis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet voluptas similique velit, laboriosam dolores cum veritatis eligendi quis molestias vitae quaerat praesentium, autem soluta iusto, debitis aut temporibus facere doloribus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veritatis culpa consectetur doloremque optio mollitia beatae repellat unde vel aut? Est enim repellat nihil unde quo voluptatum soluta ut quam?Lorem ipsum dolor sit amet consectetur adipisicing</p>
+
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum error a ipsam, aliquam mollitia velit atque consectetur quo molestiae? Minus praesentium nesciunt dolor quia harum fuga! Repellendus tempore illo quisquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia aspernatur, voluptate explicabo provident magnam ullam autem, quasi quo nihil porro error ex dolorem, sequi ut quia cupiditate dolore quaerat!</p>
+</body>
+</html>
