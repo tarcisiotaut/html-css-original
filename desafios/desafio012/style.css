@@ -17,6 +17,10 @@
     padding: 0px;
 }
 
+body{ background-color: white;
+    background-size: cover;
+}
+    
 
     
 
@@ -61,22 +65,52 @@ nav > a{
     font-size: xx-large;
 
 }
+
 p{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     font-family:  'Libre Baskerville', serif;
-    font-weight: 500;
+    font-weight: 500px;
     padding: 100px 0px 0px 27px;
-   font-style: oblique;
+   font-style: normal;
+   line-height: 2.5em;
+  
+  
+    
    }
    
-
-p.paragrafocor1{
+div.fundocor1{
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: url('imagens/background001.jpg');
-}
-p.paragrafocor2{
+    color: white;
+    }
+
+
+div.fundocor2{
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: url('imagens/background002.jpg');
+    color: white;
+   
+  
 }
 
+#paragrafocor1{
+   
+    
+}
 
-
+#paragrafocor2{
+    
+}
+div > p{
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.795);
+   
+   
+    
+}
