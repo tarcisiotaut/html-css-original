@@ -71,9 +71,10 @@ p{
     height: 500px;
     font-family:  'Libre Baskerville', serif;
     font-weight: 500px;
-    padding: 100px 0px 0px 27px;
+   padding: 10px;
    font-style: normal;
-   line-height: 2.5em;
+ 
+   
   
   
     
@@ -109,8 +110,17 @@ div.fundocor2{
     
 }
 div > p{
-    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.795);
-   
-   
-    
+    box-shadow: inset  1px 1px 216px 146px black;
+    display: inline-block;
+    margin: 10px 30px;
+    padding:-10px ;
 }
+   
+   footer{ text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: -520px;
+   
+   }
+    
