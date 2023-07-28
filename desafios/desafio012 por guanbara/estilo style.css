@@ -32,7 +32,9 @@ html, body{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 3.5em;
+    font-size: 6vw;
+    font-weight:bolder;
+    
 }
 header > p{
      padding-bottom: 50px;
@@ -49,36 +51,49 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
+section > p{
+
+    padding-bottom: 2.5em;
+}
 
 section{
     
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 1.5em;
+    line-height: 1em;
     font-family: var(--fonte2);
-    font-size: 2em;
+    font-size: 4vw;
     
-    
-
-
 }
 section.branco{
     background-color: white;
    
+}
 
-}
-section.imagem{
-    background-color: rgba(0, 0, 0, 0.288);
-    color: white;
-    
-}
 
  section.imagem > p{
     background-color: rgba(0, 0, 0, 0.26);
-    width: 400px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+   
+ }
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+    
 }
 
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+}
 footer{
     background-color: black;
     text-align: center;
