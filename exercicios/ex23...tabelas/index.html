@@ -14,14 +14,27 @@ body{
 
     table{ 
         border-collapse: collapse;
+        width: 500px;
+        height:500px;
        }
 
     tr{ 
+        
 
     }
     td{ border:1px solid black;
         padding: 15px;
         width: 150px;
+        vertical-align:top; /* Alinhamento Vertical */
+        text-align: center; /* Alinhamento Horizontal*/
+               
+    }
+    .numero{
+        text-align: right;
+
+    }
+    .numero2{
+        vertical-align: bottom;
     }
 
     tr.terceira{
@@ -46,19 +59,24 @@ body{
 
     <table> 
         <tr class="primeira"> <!---Primeirta Linha-->
-            <td>A1</td>
+            <td class="numero">A1</td>
             <td>A2</td>
             <td>A3</td>
         </tr>
         <tr class="segunda"> <!-- Segund linha-->
             <td>B1</td>
             <td>B2</td>
-            <td>B3</td>
+            <td class="numero2">B3</td>
         </tr>
         <tr class="terceira"> <!--Terceira linha-->
-            <td>C1</td>
+            <td class="numero2">C1</td>
             <td>C2</td>
             <td>C3</td>
+        </tr>
+        <tr>
+            <td>D1</td>
+            <td>D2</td>
+            <td class="numero">D3</td>
         </tr>
     </table>
     
