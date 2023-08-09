@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+      table{  border-collapse: collapse;
+        width: 600px;
+       
+      }
+      thead{ background-color:gray;
+
+      }
+      th , td{border: 1px solid black;
+       
+        padding: 15px;
+      }
+      tfoot{ font-weight: bolder;
+        background-color:gray;
+
+      }
+      
+    </style>
 </head>
 <body>
 
-    <h1>Usa de tabelas grandes</h1>
+    <h1>Uso de tabelas grandes</h1>
     <!--
         ANATOMIA DE TABELAS GRANDES
         TABLE
@@ -18,6 +36,43 @@
           TFOOT
             TR.TD, TH
     -->
+    <table>
+      <thead>
+        <tr>
+
+          <th>Posicão</th>
+          <th>Unidade federativa</th>
+          <th>Populaçao</th>
+
+        </tr>
+
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>1</td>
+          <td>São Paulo</td>
+          <td>44 420 459</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Minas Gerais</td>
+          <td>20 538 718</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Rio de Janeiro</td>
+          <td>16 054 524</td>
+        </tr>
+        <tfoot>
+          <tr>
+            <th>Total de habitantes</th>
+            <td>Brasil</td>
+            <td>0000000000</td>
+          </tr>
+        </tfoot>
+      </tbody>
+    </table>
     
 </body>
 </html>
