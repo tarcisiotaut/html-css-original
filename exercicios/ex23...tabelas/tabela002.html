@@ -20,6 +20,12 @@
         background-color:gray;
 
       }
+      td.num{
+        text-align: right;
+      }
+      td.cidade{
+        text-align: center;
+      }
       
     </style>
 </head>
@@ -29,6 +35,7 @@
     <!--
         ANATOMIA DE TABELAS GRANDES
         TABLE
+         CAPTION
           THEAD
             TR, TD, TH
           TBODY
@@ -40,9 +47,9 @@
       <thead>
         <tr>
 
-          <th>Posicão</th>
-          <th>Unidade federativa</th>
-          <th>Populaçao</th>
+          <th style="width: 100px;"></th>>Posicão</th>
+          <th>Unidade federativa </th>
+          <th style="width: 100px;">Populaçao</th>
 
         </tr>
 
@@ -51,24 +58,24 @@
 
         <tr>
           <td>1</td>
-          <td>São Paulo</td>
-          <td>44 420 459</td>
+          <td class="cidade">São Paulo</td>
+          <td class="num">44 420 459</td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Minas Gerais</td>
-          <td>20 538 718</td>
+          <td class="cidade">Minas Gerais</td>
+          <td class="num">20 538 718</td>
         </tr>
         <tr>
           <td>3</td>
-          <td>Rio de Janeiro</td>
-          <td>16 054 524</td>
+          <td class="cidade">Rio de Janeiro</td>
+          <td class="num">16 054 524</td>
         </tr>
         <tfoot>
           <tr>
             <th>Total de habitantes</th>
-            <td>Brasil</td>
-            <td>0000000000</td>
+            <td class="cidade">Brasil</td>
+            <td class="num">0000000000</td>
           </tr>
         </tfoot>
       </tbody>
